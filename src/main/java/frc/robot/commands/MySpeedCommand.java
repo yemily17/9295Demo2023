@@ -4,11 +4,11 @@
 
 package frc.robot.commands;
 
-import frc.robot.subsystems.ArmSubsystem;
+import frc.robot.subsystems.MySubsystem;
 import edu.wpi.first.wpilibj2.command.CommandBase;
 
 /** An example command that uses an example subsystem. */
-public class ArmSpeedCommand extends CommandBase {
+public class MySpeedCommand extends CommandBase {
   //TODO: Declare subsystem and speed variables!
 
   //TODO: Constructor
