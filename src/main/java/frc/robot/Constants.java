@@ -47,7 +47,6 @@ public final class Constants {
   }
 
   public static final class ArmConstants {
-    public static final int kMotorPort = 0;
-    public static final double kSpeed = .5;
+	//TODO: motor port, speed
   }
 }

@@ -23,8 +23,7 @@ import edu.wpi.first.wpilibj2.command.button.Trigger;
  */
 public class RobotContainer {
   // The robot's subsystems and commands are defined here...
-  private final ArmSubsystem m_armSubsystem = new ArmSubsystem();
-  private final Joystick m_driverController = new Joystick(ControllerConstants.kDriverControllerPort);
+  //TODO: declare subsystems, controllers
 
   /** The container for the robot. Contains subsystems, OI devices, and commands. */
   public RobotContainer() {
@@ -36,6 +35,6 @@ public class RobotContainer {
    * Use this method to define your trigger->command mappings.
    */
   private void configureBindings() {
-    new JoystickButton(m_driverController, Button.kA).onTrue(new ArmSpeedCommand(m_armSubsystem, ArmConstants.kSpeed));
+    //TODO: Create the button binding!
   }
 }

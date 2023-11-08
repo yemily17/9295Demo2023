@@ -4,21 +4,14 @@
 
 package frc.robot.subsystems;
 
-import com.revrobotics.CANSparkMax;
-import com.revrobotics.CANSparkMaxLowLevel.MotorType;
-
-import edu.wpi.first.wpilibj2.command.CommandBase;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
-import frc.robot.Constants.ArmConstants;
 
 public class ArmSubsystem extends SubsystemBase {
-  private final CANSparkMax m_motor = new CANSparkMax(ArmConstants.kMotorPort, MotorType.kBrushless);
+  // TODO: Declare motor!
 
   public ArmSubsystem() {
-    m_motor.restoreFactoryDefaults();
+    // TODO: Constructor
   }
 
-  public void setSpeed(double speed) {
-    m_motor.set(speed);
-  }
+  // TODO: Set speed method!
 }
